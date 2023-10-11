@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+    title Login
+    link(rel='stylesheet' href='static/css/login.css')
+    body
+    #container
+        form(action='/login' method='POST')
+            h1 Crop Recommendation
+            label Nitrogen mg/kg:
+            input(type='int' name='N')
+            label Phosphorus mg/kg:
+            input(type='int' name='P')
+            label Potassium mg/kg:
+            input(type='int' name='K')
+            label Temperature °C:
+            input(type='double' name='T')
+            label Humidity g/m3:
+            input(type='double' name='H')
+            label pH:
+            input(type='double' name='pH')
+            label Rainfall mm:
+            input(type='double' name='R')
+            input(type='submit' value='Search')
