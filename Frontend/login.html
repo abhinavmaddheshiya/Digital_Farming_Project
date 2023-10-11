@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+<div class="farmer">
+    <center style="border: 3px solid black;">
+        <br>
+        <p>E-mail Address <input type="text" name="email" /></p>
+        <p>Password: <input type="password" name="password" /></p>
+        <br>
+        <input type="button" id="btn" onclick="submit();" value="Submit" />
+        <p id="errormsg"></p>
+    </center>
+</div>
+    <!-- <h2 id="preview"></h2> -->
+    <script>
+        const submit = () => {
+
+            const email = document.getElementsByName("email")[0].value;
+            const password = document.getElementsByName("password")[0].value;
+
+            const data = {
+                email: email,
+                password: password,
+            };
+            // document.getElementById("preview").textContent = params.name;
+            const http = new XMLHttpRequest();
+            http.open('POST', 'http://localhost:6023/farmer/login');
+            http.setRequestHeader('Content-type', 'application/json');
+            http.send(JSON.stringify(data));
+
+            http.onreadystatechange = function () {
+                if (http.readyState == 4 && http.status == 200) {
+                    // accessing to parent scope`s variable
+                    result = http.responseText;
+                    callback(result,http);
+                }
+            }
+
+
+        }
+        function callback(data,http) {
+            var result = data;
+            const status =  JSON.parse(result).status;
+            if (status == "success") {
+                window.location.href = 'http://127.0.0.1:5500/Frontend/index.html?status=success';
+                alert(window.location.href);
+                return true;
+            }
+            else if (status == "failure") {
+                document.getElementById("errormsg").innerHTML = http.responseText;
+                return false;
+            }else{
+                document.getElementById("errormsg").innerHTML = http.responseText;
+                return false;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

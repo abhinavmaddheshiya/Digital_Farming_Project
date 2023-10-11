@@ -1,0 +1,55 @@
+@import url('https://fonts:googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+}
+.farmer{
+    margin: 250px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: wheat;
+} 
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:lightgreen;
+}
+body::before{
+    content:'';
+     position: absolute; 
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#e91e63,#ffc107);
+    clip-path: circle(20% at 15% 15%);
+}
+body::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#ffff,#da00ff);
+    clip-path: circle(20% at 80% 90%);
+}
+#btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color:orange;
+    color: brown;
+}
