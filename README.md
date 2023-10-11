@@ -19,6 +19,11 @@ Few Screenshots:
 <img width="1440" alt="4" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/525f6d8d-f52d-467e-aa33-5c62d4f98b35">
 <img width="1440" alt="6" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/da98fcb5-49a4-4993-b1d0-d47b52089b64">
 
+# Sign Up and Log In
+<img width="1440" alt="7" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/7d5abcdc-722d-4941-b87b-3d1c639175f2">
+<img width="1440" alt="8" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/f036cbc1-6bab-4b9a-9d5e-f881c34cdf19">
+<img width="1440" alt="10" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/694a8887-0fd5-4a39-a197-635822bf1d98">
+
 # Home Page
 <img width="1440" alt="1" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/ff5ca42a-62e9-408b-9312-36d9955805d9">
 <img width="1440" alt="9" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/792e97da-d6a0-46e3-8bfb-4ac986a0032d">
