@@ -8,7 +8,7 @@ Features that website provides:
 4. Organic Farming Techniques
 
 
-Few Screenshot: 
+Few Screenshots: 
 
 Crop Recommendation
 <img width="1440" alt="2" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/4c77c93f-dc61-4f18-a137-05ac8764e97d">
