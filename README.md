@@ -10,4 +10,4 @@ Features that website provides:
 
 Few Web pages screenshot: 
 
-Home Page
+<img width="1440" alt="2" src="https://github.com/abhinavmaddheshiya/Digital_Farming_Project/assets/93302416/4c77c93f-dc61-4f18-a137-05ac8764e97d">
